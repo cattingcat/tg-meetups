@@ -1,6 +1,6 @@
 module Main where
 
-import           SampleApi (runApi)
+import WebApi.Root (runApi)
 
 main :: IO ()
 main = runApi

@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 4ed03c7bf0bbbb5667fd4df5c529617a36dca9b502631d66dc34fcf801c6cd34
+-- hash: d06e4642d2c7de8c902e797d6ddb5e77507df03f4843dc8a23fabc58a196f979
 
 name:           TgMeetups
 version:        0.1.0.0
@@ -27,8 +27,12 @@ source-repository head
 
 library
   exposed-modules:
+      Dal.DalModule
       Lib
-      SampleApi
+      TgBot.TelegramBot
+      WebApi.ItemApi
+      WebApi.KekPukApi
+      WebApi.Root
   other-modules:
       Paths_TgMeetups
   hs-source-dirs:
