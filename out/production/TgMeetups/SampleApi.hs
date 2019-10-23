@@ -3,7 +3,9 @@
 {-# LANGUAGE LambdaCase    #-}
 {-# LANGUAGE TypeOperators #-}
 
-module SampleApi (runApi) where
+module SampleApi
+  ( runApi
+  ) where
 
 import           Data.Aeson
 import           GHC.Generics             (Generic)

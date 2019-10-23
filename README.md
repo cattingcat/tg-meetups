@@ -11,6 +11,10 @@ https://hub.docker.com/r/zxc123zxc2/tg-meetups
 https://hub.docker.com/_/haskell
 ```
 
+## Run detached with open 80 port
+```
+Run detached process with open 80 port
+```
 
 ## Dev info:
 
