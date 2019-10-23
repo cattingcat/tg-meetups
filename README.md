@@ -13,7 +13,7 @@ https://hub.docker.com/_/haskell
 
 ## Run detached with open 80 port
 ```
-Run detached process with open 80 port
+docker run -d -p 80:5000 zxc123zxc2/tg-meetups
 ```
 
 ## Dev info:
