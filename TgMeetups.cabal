@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d06e4642d2c7de8c902e797d6ddb5e77507df03f4843dc8a23fabc58a196f979
+-- hash: 0769a46bb8d04f5f186585a760faa52187531d2d7a28df742ad90bed678331d9
 
 name:           TgMeetups
 version:        0.1.0.0
@@ -40,6 +40,7 @@ library
   build-depends:
       aeson
     , base >=4.7 && <5
+    , hasql
     , servant
     , servant-server
     , wai
@@ -57,6 +58,7 @@ executable TgMeetups-exe
       TgMeetups
     , aeson
     , base >=4.7 && <5
+    , hasql
     , servant
     , servant-server
     , wai
@@ -75,6 +77,7 @@ test-suite TgMeetups-test
       TgMeetups
     , aeson
     , base >=4.7 && <5
+    , hasql
     , servant
     , servant-server
     , wai

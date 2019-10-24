@@ -20,6 +20,10 @@ docker run -d -p 80:5000 zxc123zxc2/tg-meetups
 
 Be aware about Haskell version consistency in *Dockerfile/FROM* and *stack.yaml/resolver*
 
+### Libs required:
+-  libpq-dev (brew install libpq)
+
+
 ### Local development commands
 ```
 docker image build --tag local/tg-meetups:dev .

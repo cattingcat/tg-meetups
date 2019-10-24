@@ -1,4 +1,4 @@
-FROM haskell:8.8.1
+FROM haskell:8.6.5
 
 
 EXPOSE 5000
